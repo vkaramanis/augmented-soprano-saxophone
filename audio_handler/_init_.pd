@@ -1,0 +1,16 @@
+#N canvas 1116 334 184 372 10;
+#X obj 20 18 data_routing;
+#X obj 20 41 input;
+#X msg 115 38 \; pd dsp 1;
+#X obj 115 16 loadbang;
+#X obj 20 265 output;
+#X obj 20 64 P0_octaver;
+#X obj 20 87 P1_random_wavetable;
+#X obj 20 110 P2_FM;
+#X obj 20 133 P3_Sine_Delay;
+#X obj 20 156 P4_Granular;
+#X obj 20 179 P5_Fake_Reverb;
+#X obj 20 202 P6_Tremolo;
+#X obj 31 228 P7_clarinet;
+#X obj 124 256 P8_flute;
+#X connect 3 0 2 0;

@@ -1,0 +1,7 @@
+#N canvas 197 464 450 300 10;
+#X obj 24 58 JK_granular;
+#X obj 27 -4 r~ fr;
+#X obj 27 22 osc~;
+#X obj 22 147 throw~ tofx;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;

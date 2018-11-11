@@ -19,7 +19,7 @@ while True:
         get_sensor_data(accel_pool.get())
 
     sensor = get_data('SD')
-    send_to_pd('data %i %i %i %i %i %i %i %i %i;' % (
+    send_to_pd('data %i %i %i %i %i %f %f %f %f;' % (
         preset,
         power[0],
         power[1],
@@ -29,4 +29,3 @@ while True:
         sensor[1],
         sensor[2],
         sensor[3]))
-    print(calc_zero('YL'))
